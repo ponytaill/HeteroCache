@@ -384,7 +384,7 @@ if __name__ == "__main__":
             gc.collect()  
             torch.cuda.empty_cache() 
         args.dataset = dataset
-        args.data_file = f"data/LongBench/{args.dataset}.jsonl"
+        args.data_file = f"data/longbench/{args.dataset}.jsonl"
         output_max_len = dataset2maxlen[args.dataset]
         if "deepseek" in args.model_path.lower():
             args.max_gen_len = output_max_len + 10000

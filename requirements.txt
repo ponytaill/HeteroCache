@@ -1,0 +1,28 @@
+transformers==4.57.3
+pandas
+numpy
+torch==2.6.0
+evaluate
+accelerate
+SentencePiece
+jieba
+rouge
+fuzzywuzzy
+python-Levenshtein
+protobuf
+bitsandbytes
+openai
+anthropic
+seaborn
+matplotlib
+# flash-attn
+scikit-learn
+tree_sitter_languages
+tempdir
+tree_sitter==0.21.3
+rich
+datasets
+nltk
+rouge_score
+tiktoken
+# pip install flash-attn==2.7.4.post1 --no-build-isolation

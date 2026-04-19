@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+data/infinitebench/*
+data/LongBench/*
+data/longbenchv2/*
+results/
+tensor/
+data/infinitebench/.gitkeep
+data/LongBench/.gitkeep
+data/longbenchv2/.gitkeep

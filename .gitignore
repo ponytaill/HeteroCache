@@ -2,10 +2,10 @@ __pycache__/
 *.pyc
 *.pyo
 data/infinitebench/*
+!data/infinitebench/.gitkeep
 data/LongBench/*
+!data/LongBench/.gitkeep
 data/longbenchv2/*
+!data/longbenchv2/.gitkeep
 results/
 tensor/
-data/infinitebench/.gitkeep
-data/LongBench/.gitkeep
-data/longbenchv2/.gitkeep

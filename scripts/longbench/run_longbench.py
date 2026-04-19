@@ -392,8 +392,6 @@ if __name__ == "__main__":
             args.max_gen_len = output_max_len
         model,tokenizer = load_model_and_tokenizer(args)
 
- 
-
         tokenizer.padding_side = "left"
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
